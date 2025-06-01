@@ -1,3 +1,90 @@
-h1{
-    color:red;
+:root {
+    --color: rgb(91, 25, 25);
+}
+
+body {
+    font-family: "Cherry Bomb One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-left:80px;
+    margin-right:80px;
+    /* background-color: aquamarine; */
+    background-image: linear-gradient(orange,white,green);
+}
+img{
+    border: 3px solid green;
+    padding:10px;
+}
+div{
+    text-align: center;
+}
+
+h1 {
+    border: 10px solid blue;
+    padding:10px;
+    color: var(--color);
+    font-size: 70px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-shadow: 2px 2px 0px black;
+    /* background-color: lightblue; */
+    background-image: linear-gradient(to left, yellow,green);
+}
+
+#heading1 {
+    color: green;
+}
+
+.para {
+    /* color:blue; */
+    /* color:rgb(234, 66, 5,0.8) */
+    color: #e3740c;
+    line-height: 35px;
+    font-size: 25px;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: circle;
+    text-align: left;
+    list-style-position: inside;
+    font-size: 25px;
+    list-style-image: url(abc);
+}
+
+a {
+    color: green;
+}
+
+a:link {
+    color:black;
+}
+
+a:visited {
+    color: red;
+}
+
+a:focus {
+    color: aqua;
+}
+
+a:hover {
+    color: violet;
+    text-decoration: none;
+    font-size:30px;
+}
+
+a:active {
+    color: yellow;
+}
+
+h1:hover{
+    color:orange;
+    font-size: 85px;
+}
+
+span{
+    color:crimson;
+    font-size:25px;
+    text-transform: uppercase;
 }
