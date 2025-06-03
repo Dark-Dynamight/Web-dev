@@ -1,0 +1,8 @@
+body{
+    background-image: url('../html/assets/wallpaperflare.com_wallpaper\(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    /* background-position: center; */
+    color:white;
+}
