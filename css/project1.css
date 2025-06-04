@@ -1,0 +1,52 @@
+/* universal selector */
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.header p{
+    background: -webkit-linear-gradient(rgba(255, 183, 0, 0.385),rgba(128, 68, 0, 0.785));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header{
+    text-align:center;
+    color: wheat;
+    font-size:2rem;
+    height:250px;
+    background-image: linear-gradient(to right,rgba(255, 166, 0, 0.218),rgba(255, 0, 0, 0.245)), url(../html/assets/wallpaperflare.com_wallpaper\(1\).jpg);
+}
+
+.footer{
+    text-align:center;
+    padding: 50px;
+    font-size:2rem;
+    background-color:gray;
+}
+
+
+body{
+  font-family: "Cherry Bomb One", system-ui;
+  background-image: url(https://images.unsplash.com/photo-1729575846511-f499d2e17d79?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFja2dyb3VuZCUyMGZvciUyMHdlYnNpdGV8ZW58MHx8MHx8fDA%3D);
+}
+
+.main{
+height:70vh;
+}
+
+.employe{
+    text-align:center;
+    box-shadow:1px 1px 10px gray;
+    margin: auto;
+    border-radius:5px;
+    background-color:white;
+    padding:20px;
+    width:350px;
+    margin-top:50px;
+}
+.proflie{
+    border-radius:50%;
+    width:100px;
+}

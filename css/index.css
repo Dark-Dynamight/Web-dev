@@ -46,3 +46,9 @@ body{
 p{
     font-size:2rem;
 }
+.student{
+    background-color:orange;
+    display:inline;
+    width:120px;
+    border:2px solid red;
+}
