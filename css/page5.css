@@ -1,0 +1,26 @@
+table{
+    font-size:2rem;
+    margin:auto;
+    margin-bottom: 100px;
+}
+
+table,th,td{
+    border:1px solid;
+    border-collapse: collapse;
+    width:50rem;
+    text-align:center;
+    padding:2rem;
+}
+
+/* thead{
+    background-color: grey;
+    color: gold;
+}
+tbody tr:hover{
+    background-color: green;
+    color: gold;
+} */
+
+h1{
+    text-align: center;
+}

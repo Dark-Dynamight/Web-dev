@@ -1,0 +1,12 @@
+h1{
+    font-size: 4rem;
+    text-align: center;
+}
+form{
+    text-align: center;
+    font-size: 2rem;
+}
+input{
+    box-sizing: content-box;
+    height:30px;
+}
