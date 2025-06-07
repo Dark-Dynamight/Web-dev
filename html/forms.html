@@ -1,36 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="../css/forms.css">
     <title>Forms</title>
 </head>
+
 <body>
     <h1>forms</h1>
-    <form >
+    <form>
         <!-- username -->
-         <div>
-            <label for="username">Username</label><br>
-            <input type="text" name="username" id="username">
-         </div>
-         <!-- password -->
-          <div>
-            <label for="password">Password</label><br>
+        <div class="input-field">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" placeholder="Ex. Surya">
+        </div>
+        <!-- password -->
+        <div class="input-field">
+            <label for="password">Password</label>
             <input type="password" class="password" id="password">
-          </div>
-          <!-- age -->
-           <div>
-            <label for="age">Age</label><br>
+        </div>
+        <!-- age -->
+        <div class="input-field">
+            <label for="age">Age</label>
             <input type="number" class="age" id="age">
-           </div>
-           <!-- date -->
+        </div>
+        <!-- date -->
+        <div class="input-field">
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date">
+        </div>
+        <!-- checkbox -->
+        <div class="input-field">
+            <label>Skills</label>
+            <!--JavaScript -->
             <div>
-                <label for="date">Date</label><br>
-                <input type="date" name="date" id="date">
+                <input type="checkbox" name="JavaScript" id="js">
+                <label for="js">JavaScript</label>
             </div>
-          <!-- Submit -->
-           <div>
+            <!-- React -->
+            <div>
+                <input type="checkbox" name="React" id="react">
+                <label for="react">React</label>
+            </div>
+        </div>
+        <!-- Radio -->
+        <div class="input-field">
+            <label>Gender</label>
+            <!-- Male -->
+            <div>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+            </div>
+            <!-- Female -->
+            <div>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+            </div>
+            <!-- Male -->
+            <div>
+                <input type="radio" name="gender" id="others">
+                <label for="others">others</label>
+            </div>
+        </div>
+        <!-- select -->
+        <div class="input-field">
+            <label for="state">State</label>
+            <select name="State" id="state">
+                <option disabled selected>--state--</option>
+                <option value="telangana">Telangana</option>
+                <option value="andhrapradesh">Andhra Pradesh</option>
+            </select>
+        </div>
+        <!-- textarea -->
+        <div class="input-field">
+            <label for="feedback">feedback</label>
+            <textarea name="feedback" id="feedback" rows="10"></textarea>
+        </div>
+        <!-- Submit -->
+        <div class="input-field">
             <button type="submit">Login</button>
-           </div>
+        </div>
     </form>
 </body>
+
 </html>
