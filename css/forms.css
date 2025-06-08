@@ -3,10 +3,32 @@ h1{
     text-align: center;
 }
 form{
-    text-align: center;
     font-size: 2rem;
+    width: 40rem;
+    margin: auto;
+    background-color: aqua;
+    padding:50px;
+}
+.input-field{
+    margin-bottom:15px;
+}
+input,select,textarea{
+    font-size: 1.5rem;
+    width:100%;
 }
 input{
-    box-sizing: content-box;
-    height:30px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+input[type='radio'],input[type='checkbox']{
+    width:15px;
+
+}
+button{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
 }
