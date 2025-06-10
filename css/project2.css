@@ -3,16 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-:root{
-    --color1:#2986cc;
-    --color2:#ffd966;
-    --color3:#ea9999;
-    --color4:#d5a6bd;
-    --color5:#c90076;
+
+:root {
+    --color1: #2986cc;
+    --color2: #ffd966;
+    --color3: #ea9999;
+    --color4: #d5a6bd;
+    --color5: #c90076;
 }
-body{
+
+body {
     background-color: var(--color4);
 }
+
 nav {
     display: flex;
     height: 100px;
@@ -20,6 +23,10 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 5px 15px;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
 }
 
 ul {
@@ -33,19 +40,20 @@ ul {
 
 header {
     height: 200px;
-    background-image: linear-gradient(to left, 	#ea9999, rgba(174, 46, 46, 0.581),rgba(255, 255, 255, 0)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCTPlhO1ESItgSQDE5i_MhwZ0f9c1cvO6z_Q&s);
+    background-image: linear-gradient(to left, #ea9999, rgba(174, 46, 46, 0.581), rgba(255, 255, 255, 0)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCTPlhO1ESItgSQDE5i_MhwZ0f9c1cvO6z_Q&s);
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-bottom: 30px;;
+    margin-bottom: 30px;
+    ;
 }
 
 header p {
     width: 50%;
-    max-height:200px;
-    font-size:1rem;
+    max-height: 200px;
+    font-size: 1rem;
     color: rgb(4, 4, 4);
 }
 
@@ -59,31 +67,42 @@ footer {
     text-align: end;
 }
 
-main div{
+main div {
     display: flex;
     justify-content: space-evenly;
     /* margin-bottom: 30px; */
     flex-wrap: wrap;
 }
-section{
-    width:200px;
-    height:275px;
-    padding:5px;
+
+section {
+    width: 200px;
+    height: 275px;
+    padding: 5px;
     box-shadow: 1px 1px 10px chartreuse;
     text-align: center;
     border-radius: 25px;
     background-color: white;
     margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
 }
-section:hover{
-    width:210px;
+
+section:hover {
+    width: 210px;
     height: 285px;
 }
-button{
-    margin:5px;
-    background-color:yellow ;
-    border-style:none ;
-    padding:3px;
-    border-radius:3px;
+
+button {
+    margin: 5px;
+    background-color: yellow;
+    border-style: none;
+    padding: 3px;
+    border-radius: 3px;
     cursor: pointer;
+}
+
+.icon {
+    position:absolute;
+    top:4px;
+    right:4px;
 }
