@@ -1,0 +1,55 @@
+h1{
+    color: blue;
+    text-align: center;
+    font-size: calc(1rem + 3vw);
+}
+p{
+    column-count:3;
+    column-width: 200px;
+}
+img{
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    display: block;
+}
+@media screen {
+    h1{
+        color: red;
+    }
+}
+@media print{
+   h1{
+    color: brown;
+   }
+}
+@media all and (max-width:500px){
+    h1{
+        color: orange;
+        font-size: 2rem;
+    }
+    body{
+        background-color: peachpuff;
+    }
+    img{
+        display: none;
+    }
+}
+@media all and (min-width:501px) and (max-width:700px){
+    h1{
+        color: rgb(0, 255, 4);
+        font-size: 3rem;
+    }
+    body{
+        background-color: lightgreen;
+    }
+}
+@media all and (min-width:701px){
+    h1{
+        color: brown;
+        font-size: 4rem;
+    }
+    body{
+        background-color: rgb(214, 104, 104);
+    }
+}
