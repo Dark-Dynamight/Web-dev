@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Edu+SA+Hand:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+.navigation{
+    border: 1px solid;
+    
+}
+nav{
+    padding: 0 10px;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+}
+.leftbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#search{
+    width:400px;
+    height:25px;
+    border-radius: 5%;
+    border-color: 1px solid black;
+}
+.profilepic{
+    border-radius: 50%;
+    cursor: pointer;
+}
+.layout{
+    display: flex;
+}
+.section{
+    height:1000px;
+}
+.firstsection{
+    border: 1px solid;
+    width:15%;
+    display: flex;
+    justify-content: center;
+    
+}
+.secondsection{
+    border: 1px solid;
+    width:70%;
+}
+.thirdsection{
+    border: 1px solid;
+    width:15%;
+}
