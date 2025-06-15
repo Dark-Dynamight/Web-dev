@@ -64,7 +64,7 @@ nav {
 .profilepic {
     border-radius: 50%;
 }
-.hamburger-menu ,.youtube-logo ,.search-button ,.upload ,.notification ,.profilepic{
+.hamburger-menu ,.youtube-logo ,.search-button ,.voice-search ,.upload ,.notification ,.profilepic{
     cursor: pointer;
 }
 
