@@ -25,3 +25,17 @@ let empl = {
 }
 
 console.log(empl.getSalary())
+
+
+//constructor
+function emp(rno, name, age, skills) {
+    this.rollNo = rno;
+    this.empName = name;
+    this.empAge = age;
+    this.empSkills = skills;
+}
+let emp1 = new emp('495', 'surya', 21, ['html', 'css'])
+let emp2 = new emp('4b6', 'karthik', 21, ['html', 'css'])
+
+console.log(emp1)
+console.log(emp2)
