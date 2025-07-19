@@ -1,5 +1,5 @@
 let heading = document.querySelector("#heading");
-let buton = document.querySelector(".buton");
+// let buton = document.querySelector(".buton");
 let image = document.querySelector("img");
 let div = document.querySelector("div");
 buton.addEventListener('click', () => {
