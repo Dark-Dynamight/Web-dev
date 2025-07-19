@@ -8,4 +8,6 @@ console.log(x)
 
 let arr = ["apple", "banna", "cherry", "date"]
 let result = arr.splice(1, 2, "orange", "grapes")
+let elAdd = arr.push("orange")
 console.log(result)
+console.log(arr)
