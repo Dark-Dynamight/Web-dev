@@ -6,16 +6,78 @@
 </head>
 
 <body>
-    <h1>Form Input</h1>
-    <input type="text" class="username" placeholder="username">
-    <button class="btn">Enter</button>
-    <script src="./formInput.js"></script>
+    <div class="main">
+        <h1>Form Input</h1>
+        <form action="">
+            <div class="in">
+                <label for="username">Username</label><br>
+                <input type="text" class="username" placeholder="username">
+            </div>
+            <div class="in">
+                <label for="age">Age</label><br>
+                <input type="number" class="age" placeholder="age">
+            </div>
+            <div class="in">
+                <label for="dob">Date of birth</label><br>
+                <input type="date" class="dob" placeholder="dob">
+            </div>
+
+            <button type="submit" class="btn">submit</button>
+        </form>
+        <br>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>DOB</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="./formSubmit.js"></script>
 </body>
 <style>
     body {
-        font-size: 2rem;
+        font-size: 1.5rem;
+        color: darkblue;
+    }
+
+    h1 {
         text-align: center;
+    }
+
+    form {
+        margin: auto;
+        width: 600px;
+    }
+
+    input {
+        width: 600px;
+        height: 25px;
+    }
+
+    table {
+        font-size: 1.5rem;
         color: blue;
+        margin: auto;
+        width: 600px;
+        text-align: center;
+        border-collapse: collapse;
+    }
+
+    td {
+        color: black;
+    }
+
+    .main {
+        background-color: orange;
+        width: 700px;
+        margin: auto;
+        border-radius: 25px;
+        padding-bottom: 20px;
     }
 </style>
 
