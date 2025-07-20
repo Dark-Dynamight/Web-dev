@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Caluclator</title>
+</head>
+
+<body>
+    <h1>Caluclator</h1>
+    <h3>Enter the Values below</h3>
+    <form action="">
+        <label for="num1">Number1</label>
+        <input type="number" class="num" id="num1">
+        <br>
+        <label for="num2">Number2</label>
+        <input type="number" class="num" id="num2">
+        <br>
+        <select id="operator">
+            <option disabled selected>Select operator</option>
+            <option value="+">Addition</option>
+            <option value="*">Multiplication</option>
+            <option value="/">Divison</option>
+            <option value="-">Substraction</option>
+        </select>
+    </form>
+    <button class="res">Enter</button>
+    <script src="./caluclatorUsingJs.js"></script>
+</body>
+<style>
+    body {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .res {
+        margin: 15px;
+    }
+
+    .num {
+        margin-bottom: 20px;
+    }
+</style>
+
+</html>

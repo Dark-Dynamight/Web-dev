@@ -12,15 +12,15 @@ console.log(h);
 
 // querySelector
 // By Tages
-let ByTags = document.querySelector("h1")
+let ByTags = document.querySelector("h1");
 console.log(ByTags)
 // By Id
-let ById = document.querySelector("#hello")
+let ById = document.querySelector("#hello");
 console.log(ById)
 // By class
-let ByClass = document.querySelector(".hi")
+let ByClass = document.querySelector(".hi");
 console.log(ByClass)
 
 // querySelectorAll
-let h1 = document.querySelectorAll("h1")
+let h1 = document.querySelectorAll("h1");
 console.log(h1)
